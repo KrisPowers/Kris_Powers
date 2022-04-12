@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(9, 9, 9, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -384,14 +384,14 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #222222;
+  color: #ffffff;
 }
 .navbar-mobile > ul > li {
   padding: 0;
@@ -1575,7 +1575,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #111827;
+  background: #000000;
   padding: 0 0 30px 0;
   color: #ffffff;
   font-size: 14px;
@@ -1627,8 +1627,14 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #111827;
+  background: #000000;
 }
+
+#footer .footer-top .footer-contact img {
+  height: 45px;
+  width: 150px;
+}
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
@@ -1691,8 +1697,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #10ea51;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1703,7 +1709,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #3b8af2;
+  background: #10ea51;
   color: #fff;
   text-decoration: none;
 }
