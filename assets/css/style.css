@@ -28,6 +28,39 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+#timer div {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100px;
+  height: 105px;
+  border-radius: 5px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#timer div span {
+  display: block;
+  margin-top: -2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+  #timer {
+    margin-top: -20px;
+  }
+  #timer div {
+    width: 95px;
+    height: 100px;
+    font-size: 32px;
+    margin-top: 20px;
+ }
+ #timer div span {
+   font-size: 14px;
+ }
+}
+
 .legal {
   text-align: center;
   margin: auto;
